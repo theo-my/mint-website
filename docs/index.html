@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MINT Lab — Machine Intelligence and Normative Theory</title>
+    <meta name="description" content="MINT Lab works on the philosophy of AI and AI governance — currently at the Australian National University, moving to Johns Hopkins University. New website coming soon.">
+    <link rel="icon" type="image/png" href="images/minty-standard.png">
+    <style>
+        :root {
+            --mint: #2ec4b6;
+            --mint-dark: #1a9e93;
+            --mint-light: #e8f8f5;
+            --charcoal: #2d3436;
+            --warm-gray: #636e72;
+            --off-white: #fafafa;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            color: var(--charcoal);
+            background: var(--off-white);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .hero {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 3rem 2rem;
+            text-align: center;
+        }
+
+        .logo {
+            max-width: 420px;
+            width: 85%;
+            height: auto;
+            margin-bottom: 1.5rem;
+        }
+
+        .mint-bar {
+            width: 60px;
+            height: 4px;
+            background: var(--mint);
+            border-radius: 2px;
+            margin-bottom: 2rem;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            letter-spacing: -0.02em;
+            margin-bottom: 0.5rem;
+            color: var(--charcoal);
+        }
+
+        .subtitle {
+            font-size: 1.1rem;
+            color: var(--warm-gray);
+            margin-bottom: 2.5rem;
+            font-weight: 400;
+        }
+
+        .description {
+            max-width: 640px;
+            font-size: 1.05rem;
+            line-height: 1.7;
+            color: var(--charcoal);
+            margin-bottom: 2rem;
+        }
+
+        .wip-notice {
+            display: inline-block;
+            background: var(--mint-light);
+            border: 1px solid var(--mint);
+            border-radius: 8px;
+            padding: 1rem 1.5rem;
+            margin-bottom: 2.5rem;
+            font-size: 0.95rem;
+            color: var(--mint-dark);
+        }
+
+        .contact {
+            font-size: 0.95rem;
+            color: var(--warm-gray);
+        }
+
+        .contact a {
+            color: var(--mint-dark);
+            text-decoration: none;
+            border-bottom: 1px solid transparent;
+            transition: border-color 0.2s;
+        }
+
+        .contact a:hover {
+            border-bottom-color: var(--mint-dark);
+        }
+
+        footer {
+            padding: 2rem;
+            text-align: center;
+            font-size: 0.85rem;
+            color: var(--warm-gray);
+            line-height: 1.6;
+        }
+
+        footer .acknowledgment {
+            max-width: 600px;
+            margin: 0 auto 1rem;
+            font-style: italic;
+        }
+
+        @media (max-width: 600px) {
+            h1 { font-size: 1.8rem; }
+            .subtitle { font-size: 1rem; }
+            .description { font-size: 0.95rem; }
+            .hero { padding: 2rem 1.5rem; }
+        }
+    </style>
+</head>
+<body>
+    <main class="hero">
+        <img src="images/minty-standard.png" alt="MINT Lab" class="logo">
+
+        <p class="subtitle">Philosophy of AI and AI Governance</p>
+
+        <p class="description">
+            MINT Lab (Machine Intelligence and Normative Theory) is a research group led by Professor Seth Lazar, currently at the Australian National University and moving to Johns Hopkins University. New website coming soon.
+        </p>
+
+        <div class="wip-notice">
+            New website coming soon.
+        </div>
+
+        <p class="contact">
+            <a href="mailto:mint@anu.edu.au">mint@anu.edu.au</a>
+        </p>
+    </main>
+
+    <footer>
+        <p class="acknowledgment">
+            We acknowledge the Traditional Custodians of Country throughout Australia, and their continuing connection to culture, community, land, sea and sky. We pay our respects to Elders past, present and future.
+        </p>
+        <p>&copy; 2026 MINT Lab</p>
+    </footer>
+</body>
+</html>
